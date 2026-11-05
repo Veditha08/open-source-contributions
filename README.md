@@ -6,29 +6,53 @@ A documented log of my contributions to external open-source projects, libraries
 
 ## Overview
 
-| Metric | Count | Verified Projects |
+| Metric | Count | Verified Repositories |
 |---|---|---|
 | **Merged Pull Requests** | **4** | [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server), [AOSSIE-Org/Rein](https://github.com/AOSSIE-Org/Rein), [AOSSIE-Org/BabyNest](https://github.com/AOSSIE-Org/BabyNest), [GreedyBear-Project/GreedyBear](https://github.com/GreedyBear-Project/GreedyBear) |
-| **Open Pull Requests** | **4** | [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server), [AOSSIE-Org/Rein](https://github.com/AOSSIE-Org/Rein), [AOSSIE-Org/BabyNest](https://github.com/AOSSIE-Org/BabyNest), [fossasia/voxbento](https://github.com/fossasia/voxbento), [fossasia/scrum_helper](https://github.com/fossasia/scrum_helper) |
-| **Documented Issues** | **6** | Reproductions, root-cause analyses, and test specifications |
-| **Primary Stacks** | — | C++ (C++17/20), TypeScript, React, React Native, Node.js, WebRTC, Python |
+| **Open Pull Requests** | **5** | [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server), [AOSSIE-Org/Rein](https://github.com/AOSSIE-Org/Rein), [AOSSIE-Org/BabyNest](https://github.com/AOSSIE-Org/BabyNest), [fossasia/voxbento](https://github.com/fossasia/voxbento), [fossasia/scrum_helper](https://github.com/fossasia/scrum_helper) |
+| **Superceded Pull Requests** | **1** | [GreedyBear-Project/GreedyBear](https://github.com/GreedyBear-Project/GreedyBear) (re-submitted as #1795 with clean branch) |
+| **Documented Issues Authored** | **14** | 10 in core open-source organizations (6 open, 4 resolved via merged PRs) + 4 in community event tools |
+| **Primary Stacks** | — | C++ (C++17/20), TypeScript, React, React Native, Node.js, WebRTC, Python (FastAPI/Flask) |
 
 ---
 
 ## Contributions index
 
-| Project | Contribution | Stack / Area | Status |
+### Pull Requests (10 Total: 4 Merged, 5 Open, 1 Superceded)
+
+| Project | Pull Request | Stack / Area | Status |
 |---|---|---|---|
 | [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server) | [PR #4694](https://github.com/openvinotoolkit/model_server/pull/4694): Reject whitespace-prefixed negative values in `stou64` | C++, String Parsing, GTest | **Merged** |
 | [AOSSIE-Org/Rein](https://github.com/AOSSIE-Org/Rein) | [PR #442](https://github.com/AOSSIE-Org/Rein/pull/442): Replace `react-icons` with `lucide-react` to resolve build failure | TypeScript, React, Rolldown | **Merged** |
 | [GreedyBear-Project/GreedyBear](https://github.com/GreedyBear-Project/GreedyBear) | [PR #1795](https://github.com/GreedyBear-Project/GreedyBear/pull/1795): Add accessible name and modern scroll listener to `ScrollToTopButton` | React, WCAG a11y, Jest | **Merged** |
 | [AOSSIE-Org/BabyNest](https://github.com/AOSSIE-Org/BabyNest) | [PR #285](https://github.com/AOSSIE-Org/BabyNest/pull/285): Include `user_id` in AI appointment updates payload | React Native, Async Storage | **Merged** |
-| [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server) | [PR #4726](https://github.com/openvinotoolkit/model_server/pull/4726): Reject malformed MediaPipe `servable_version` inputs | C++, MediaPipe Calculator, GTest | **Open** |
-| [AOSSIE-Org/Rein](https://github.com/AOSSIE-Org/Rein) | [PR #455](https://github.com/AOSSIE-Org/Rein/pull/455): Detach stale `RTCDataChannel` event listeners on reconnect | WebRTC, React Context, Vitest | **Open** |
-| [AOSSIE-Org/BabyNest](https://github.com/AOSSIE-Org/BabyNest) | [PR #304](https://github.com/AOSSIE-Org/BabyNest/pull/304): Add optional chaining for null `userContext` and import `addMedicine` in `RAGService` | React Native, RAG, Jest | **Open** |
-| [fossasia/voxbento](https://github.com/fossasia/voxbento) | [PR #999](https://github.com/fossasia/voxbento/pull/999): Return 400 Bad Request on invalid `language_code` in booth endpoints | Python, FastAPI, API Validation | **Open** |
-| [fossasia/scrum_helper](https://github.com/fossasia/scrum_helper) | [PR #948](https://github.com/fossasia/scrum_helper/pull/948): Preserve custom date ranges in generated report headings | Python, Flask, Timezones | **Open** |
-| [GreedyBear-Project/GreedyBear](https://github.com/GreedyBear-Project/GreedyBear) | [Issue #1818](https://github.com/GreedyBear-Project/GreedyBear/issues/1818): Unmounting first subscriber in `useWidgetData` aborts shared request | React Hooks, Concurrency | **Open** |
+| [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server) | [PR #4726](https://github.com/openvinotoolkit/model_server/pull/4726): Reject malformed MediaPipe `servable_version` inputs | C++, MediaPipe Calculator, GTest | **Open** (Review pending) |
+| [AOSSIE-Org/Rein](https://github.com/AOSSIE-Org/Rein) | [PR #455](https://github.com/AOSSIE-Org/Rein/pull/455): Detach stale `RTCDataChannel` event listeners on reconnect | WebRTC, React Context, Vitest | **Open** (Review pending) |
+| [AOSSIE-Org/BabyNest](https://github.com/AOSSIE-Org/BabyNest) | [PR #304](https://github.com/AOSSIE-Org/BabyNest/pull/304): Add optional chaining for null `userContext` and import `addMedicine` in `RAGService` | React Native, RAG, Jest | **Open** (Review pending) |
+| [fossasia/scrum_helper](https://github.com/fossasia/scrum_helper) | [PR #948](https://github.com/fossasia/scrum_helper/pull/948): Preserve custom date ranges in generated report headings | Python, Flask, Timezones | **Open** (Review pending) |
+| [fossasia/voxbento](https://github.com/fossasia/voxbento) | [PR #999](https://github.com/fossasia/voxbento/pull/999): Return 400 Bad Request on invalid `language_code` in booth endpoints | Python, FastAPI, API Validation | **Open** (Merge conflict on `dev`) |
+| [GreedyBear-Project/GreedyBear](https://github.com/GreedyBear-Project/GreedyBear) | [PR #1791](https://github.com/GreedyBear-Project/GreedyBear/pull/1791): Add accessible name to ScrollToTopButton | React, Accessibility | **Closed** (Superceded by #1795) |
+
+---
+
+### Issues & Bug Reports Authored (14 Total: 7 Open, 7 Closed)
+
+| Project | Issue | Focus / Topic | Status | Related PR |
+|---|---|---|---|---|
+| [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server) | [Issue #4695](https://github.com/openvinotoolkit/model_server/issues/4695) | `stou64()` accepts negative values preceded by whitespace | **Closed** | [PR #4694](https://github.com/openvinotoolkit/model_server/pull/4694) (Merged) |
+| [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server) | [Issue #4717](https://github.com/openvinotoolkit/model_server/issues/4717) | MediaPipe session calculator silently accepts malformed `servable_version` values | **Open** | [PR #4726](https://github.com/openvinotoolkit/model_server/pull/4726) (Open) |
+| [AOSSIE-Org/Rein](https://github.com/AOSSIE-Org/Rein) | [Issue #441](https://github.com/AOSSIE-Org/Rein/issues/441) | Production build (`npm run build`) fails due to unresolved `react-icons` imports | **Closed** | [PR #442](https://github.com/AOSSIE-Org/Rein/pull/442) (Merged) |
+| [AOSSIE-Org/Rein](https://github.com/AOSSIE-Org/Rein) | [Issue #454](https://github.com/AOSSIE-Org/Rein/issues/454) | Stale `DataChannel` event listeners on reconnect trigger false disconnect state | **Open** | [PR #455](https://github.com/AOSSIE-Org/Rein/pull/455) (Open) |
+| [AOSSIE-Org/BabyNest](https://github.com/AOSSIE-Org/BabyNest) | [Issue #282](https://github.com/AOSSIE-Org/BabyNest/issues/282) | AI appointment rescheduling fails due to missing `user_id` in update payload | **Closed** | [PR #285](https://github.com/AOSSIE-Org/BabyNest/pull/285) (Merged) |
+| [AOSSIE-Org/BabyNest](https://github.com/AOSSIE-Org/BabyNest) | [Issue #291](https://github.com/AOSSIE-Org/BabyNest/issues/291) | Unhandled `TypeError` in `RAGService` when `userContext` is null & missing `addMedicine` import | **Open** | [PR #304](https://github.com/AOSSIE-Org/BabyNest/pull/304) (Open) |
+| [GreedyBear-Project/GreedyBear](https://github.com/GreedyBear-Project/GreedyBear) | [Issue #1788](https://github.com/GreedyBear-Project/GreedyBear/issues/1788) | `ScrollToTopButton` has no accessible name for assistive technology | **Closed** | [PR #1795](https://github.com/GreedyBear-Project/GreedyBear/pull/1795) (Merged) |
+| [GreedyBear-Project/GreedyBear](https://github.com/GreedyBear-Project/GreedyBear) | [Issue #1818](https://github.com/GreedyBear-Project/GreedyBear/issues/1818) | Unmounting first subscriber in `useWidgetData` aborts shared request for remaining subscribers | **Open** | Independent Bug Report |
+| [fossasia/voxbento](https://github.com/fossasia/voxbento) | [Issue #998](https://github.com/fossasia/voxbento/issues/998) | API v1 booth and transcription endpoints return 500 instead of 400 on invalid `language_code` | **Open** | [PR #999](https://github.com/fossasia/voxbento/pull/999) (Open) |
+| [fossasia/scrum_helper](https://github.com/fossasia/scrum_helper) | [Issue #945](https://github.com/fossasia/scrum_helper/issues/945) | Custom date range displays incorrect dates in report heading in UTC-negative timezones | **Open** | [PR #948](https://github.com/fossasia/scrum_helper/pull/948) (Open) |
+| [SK8-infi/Devkriti-Popcorn-frontend](https://github.com/SK8-infi/Devkriti-Popcorn-frontend) | [Issue #8](https://github.com/SK8-infi/Devkriti-Popcorn-frontend/issues/8) | Showing user not found when selecting location | **Closed** | Frontend Bug Report |
+| [SK8-infi/Devkriti-Popcorn-frontend](https://github.com/SK8-infi/Devkriti-Popcorn-frontend) | [Issue #9](https://github.com/SK8-infi/Devkriti-Popcorn-frontend/issues/9) | Search functionality not working across listed items | **Closed** | Frontend Bug Report |
+| [SK8-infi/Devkriti-Popcorn-frontend](https://github.com/SK8-infi/Devkriti-Popcorn-frontend) | [Issue #10](https://github.com/SK8-infi/Devkriti-Popcorn-frontend/issues/10) | Contact Us page layout and submission issues | **Closed** | Frontend Bug Report |
+| [SK8-infi/Devkriti-Popcorn-frontend](https://github.com/SK8-infi/Devkriti-Popcorn-frontend) | [Issue #11](https://github.com/SK8-infi/Devkriti-Popcorn-frontend/issues/11) | Upcoming shows of a movie layout restructuring | **Open** | UI / Layout Improvement |
 
 ---
 
@@ -67,7 +91,7 @@ A documented log of my contributions to external open-source projects, libraries
 - Replaced the silent partial parsing with a strict check against `::ovms::stou32()`. When a supplied version cannot be fully parsed as a non-negative integer or is an explicit empty string, the calculator logs the offending value and returns an explicit `mediapipe::InvalidArgumentError`.
 - Authored a dedicated regression test fixture (`OpenVINOModelServerSessionCalculatorVersionTest`) in `src/test/mediapipe_framework_test.cpp` using `ParseTextProtoOrDie` to construct minimal calculator graph configs and verify that invalid inputs fail at the `Open()` initialization step without requiring a running model server instance.
 
-**Outcome.** All automated CI builds and tests pass; awaiting maintainer final sign-off.
+**Outcome.** CI builds and automated tests pass with clean status; waiting for maintainer final review.
 
 ---
 
@@ -79,7 +103,7 @@ A documented log of my contributions to external open-source projects, libraries
 - **Status:** Merged (1 November 2026)
 - **Stack:** TypeScript, React, Rolldown / Vite, Biome, Vitest
 
-**Problem.** Running `npm run build` on the Rein frontend crashed during Rolldown module resolution. Unresolved imports pointing to sub-paths of legacy `react-icons` packages (`react-icons/fa`, `react-icons/fa6`, `react-icons/md`) inside `ServerTab.tsx` and `Trackpad/ExtraKeys.tsx` caused the production bundle generation to fail.
+**Problem.** Running `npm run build` on the Rein frontend crashed during Rolldown module resolution. Unresolved imports pointing to sub-paths of legacy `react-icons` packages (`react-icons/fa`, `react-icons/fa6`, `react-icons/md`) inside `ServerTab.tsx` and `Trackpad/ExtraKeys.tsx` caused production bundle generation to fail.
 
 **What I did.**
 - Identified all orphaned `react-icons` usages and replaced them with standard `lucide-react` components (`TriangleAlert`, `VolumeX`, `Volume1`, `Volume2`, `Play`, `Pause`, `SkipBack`, `SkipForward`, `ArrowUp`, `ArrowDown`, `ArrowLeft`, `ArrowRight`, `CornerDownLeft`, `Space`).
@@ -107,7 +131,7 @@ A documented log of my contributions to external open-source projects, libraries
 - Authored two test suites (`ConnectionProvider.test.tsx` and `useWebRtcStream.test.tsx`) in Vitest with mock data channels, verifying listener detachment, status isolation against stale events, and hook unmount cleanups.
 - Updated `vitest.config.ts` to include `.tsx` test patterns.
 
-**Outcome.** Comprehensive test suite passing with zero regressions; pending review.
+**Outcome.** CodeRabbit review passed; comprehensive test suite passing with zero regressions; pending maintainer review.
 
 ---
 
@@ -144,21 +168,21 @@ A documented log of my contributions to external open-source projects, libraries
 - Imported `addMedicine` from `../storage/medicine`.
 - Created an end-to-end Jest unit test file (`__tests__/ragUserContextNullSafe.test.js`) mocking `AsyncStorage`, database handles, and notification drivers to ensure null `userContext` parameters cleanly resolve default values.
 
-**Outcome.** All tests green; under maintainer review.
+**Outcome.** CodeRabbit review passed; unit test suite green; under maintainer review.
 
 ---
 
 ### 7. The Honeynet Project GreedyBear: Accessibility compliance on `ScrollToTopButton`
 
 - **Repository:** [GreedyBear-Project/GreedyBear](https://github.com/GreedyBear-Project/GreedyBear)
-- **Pull Request:** [PR #1795](https://github.com/GreedyBear-Project/GreedyBear/pull/1795)
+- **Pull Request:** [PR #1795](https://github.com/GreedyBear-Project/GreedyBear/pull/1795) *(Superceded PR #1791)*
 - **Associated Issue:** [Issue #1788](https://github.com/GreedyBear-Project/GreedyBear/issues/1788)
 - **Status:** Merged (27 October 2026)
 - **Stack:** React, WCAG Accessibility, Jest
 
 **Problem.** The dashboard's floating scroll-to-top button rendered an icon inside a `<Button>` without an accessible name (`aria-label` or text node), making it invisible to assistive technologies and failing accessibility audits. Additionally, its scroll event handler referenced the deprecated `window.pageYOffset` alias.
 
-**What I did.** Added `aria-label="Scroll to top"` directly to the inner button element in `ScrollToTopButton.jsx`, migrated `window.pageYOffset` to `window.scrollY`, and created a test file under `frontend/tests/components/common/` verifying accessible name presence, scroll-visibility thresholds, and click handlers.
+**What I did.** Added `aria-label="Scroll to top"` directly to the inner button element in `ScrollToTopButton.jsx`, migrated `window.pageYOffset` to `window.scrollY`, and created a test file under `frontend/tests/components/common/` verifying accessible name presence, scroll-visibility thresholds, and click handlers. *(PR #1791 was closed in favor of #1795 to provide clean branch commits and tests).*
 
 **Outcome.** Merged into `develop` by maintainers on 27 October 2026.
 
@@ -180,14 +204,18 @@ A documented log of my contributions to external open-source projects, libraries
 - **Repository:** [fossasia/voxbento](https://github.com/fossasia/voxbento)
 - **Pull Request:** [PR #999](https://github.com/fossasia/voxbento/pull/999)
 - **Associated Issue:** [Issue #998](https://github.com/fossasia/voxbento/issues/998)
-- **Status:** Open (waiting for review)
-- **Stack:** Python, FastAPI, Pydantic, HTTP Status Codes
+- **Status:** Open (Merge conflict on upstream `dev` branch)
+- **Stack:** Python, FastAPI, Pydantic, Pytest
 
-**Problem.** In the Voxbento transcription service, passing an unsupported or malformed `language_code` query parameter to the `/api/v1/booth` endpoints caused an unhandled exception inside the language mapping handler, resulting in a `500 Internal Server Error` instead of rejecting the malformed input with a standard client error code.
+**Problem.** In Voxbento's audio booth and transcription endpoints, passing an unsupported or malformed `language_code` parameter caused an unhandled internal exception that returned `500 Internal Server Error` instead of rejecting the input with `400 Bad Request`.
 
-**What I did.** Added strict validation on the incoming `language_code` parameter to reject unsupported values early with an explicit `400 Bad Request` and descriptive error message.
+**What I did.**
+- Added language validation via `_validate_lang()` in `portal/routers/api_v1.py` returning `HTTP 400 Bad Request` with descriptive messages.
+- Added comprehensive unit tests in `tests/test_api_v1_rooms.py`.
+- Recorded and attached a screencast video demonstrating the fix against test suites, fulfilling repository contribution guidelines and removing the `needs-screencast` label.
+- Addressed maintainer feedback from `@Th-Shivam` by moving `_validate_lang()` after event lookup and RBAC checks across all six route handlers, preserving existing cross-event `404 Event not found` behavior. Added regression tests verifying this precedence.
 
-**Outcome.** Open, waiting for maintainer triage.
+**Current blocker / status.** The PR is active and code changes are complete. A merge conflict notification was flagged by `github-actions[bot]` due to subsequent upstream commits landing on `dev`. Rebase / merge resolution against upstream `dev` is required, and CI workflow run authorization by maintainers is pending.
 
 ---
 
@@ -197,13 +225,25 @@ A documented log of my contributions to external open-source projects, libraries
 - **Pull Request:** [PR #948](https://github.com/fossasia/scrum_helper/pull/948)
 - **Associated Issue:** [Issue #945](https://github.com/fossasia/scrum_helper/issues/945)
 - **Status:** Open (waiting for review)
-- **Stack:** Python, Flask, Date Serialization
+- **Stack:** Python, Flask, Date Serialization, Timezones
 
 **Problem.** When users in negative UTC timezones generated custom sprint summary reports, the report heading displayed dates offset by one day due to UTC normalization occurring before heading formatting.
 
-**What I did.** Updated the date parsing pipeline in the report generation controller to preserve the user's selected calendar date boundaries when formatting document titles and report metadata.
+**What I did.** Centralized date formatting in `src/scripts/scrumHelper.js` with an explicit `timeZone: 'UTC'` option in `formatDate()` to ensure calendar-date stability across browser timezones. Added regression coverage in `tests/customDateReportHeading.test.js` validating consistency across positive, negative, and UTC timezones.
 
-**Outcome.** Open, waiting for maintainer review.
+**Outcome.** All pre-merge checks passed (CodeRabbit title check, linked issue verification, and out-of-scope changes check passed); open, awaiting final maintainer merge.
+
+---
+
+### 11. Devkriti Popcorn Frontend: Component & UI Issue Reports
+
+- **Repository:** [SK8-infi/Devkriti-Popcorn-frontend](https://github.com/SK8-infi/Devkriti-Popcorn-frontend)
+- **Issues:**
+  - [Issue #8](https://github.com/SK8-infi/Devkriti-Popcorn-frontend/issues/8): `showing user not found when selecting location` (Closed)
+  - [Issue #9](https://github.com/SK8-infi/Devkriti-Popcorn-frontend/issues/9): `search not working` (Closed)
+  - [Issue #10](https://github.com/SK8-infi/Devkriti-Popcorn-frontend/issues/10): `contact us page` (Closed)
+  - [Issue #11](https://github.com/SK8-infi/Devkriti-Popcorn-frontend/issues/11): `upcoming shows of a movie layout to be changed` (Open)
+- **Summary:** Identified, reproduced, and logged frontend interface bugs regarding state handling on location selection, search filter failures, and layout restructuring for movie schedule cards.
 
 ---
 
@@ -211,6 +251,6 @@ A documented log of my contributions to external open-source projects, libraries
 
 To add new contributions as they are submitted or merged:
 
-1. Add a row to the [Contributions index](#contributions-index) table with project name, PR/issue link, stack tags, and status (`Merged`, `Open`, or `Closed`).
-2. Update the [Overview](#overview) metric counts.
-3. Append a technical summary under [Detailed contributions](#detailed-contributions) detailing the problem, technical implementation, and outcome.
+1. Add a row to the [Pull Requests](#pull-requests-10-total-4-merged-5-open-1-superceded) or [Issues Authored](#issues--bug-reports-authored-14-total-7-open-7-closed) table with the project name, link, stack, and status (`Merged`, `Open`, or `Closed`).
+2. Update the [Overview](#overview) metric counts to reflect the new total.
+3. Append a technical summary under [Detailed contributions](#detailed-contributions) detailing the problem, implementation, maintainer discussions, and current status.
